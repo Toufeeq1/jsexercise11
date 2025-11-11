@@ -17,7 +17,7 @@ const multilineString = `
  * @param {number} age 
  * @returns 
  */
-const generateHTML = (name, age) => `My name is ${name} is and my age is ${age}.`;
+const generateHTML = (name, age) => `<p>My name is ${name} is and my age is ${age}</p>`;
 
 function randomNumber (){
     return Math.floor(Math.random() * 100);
